@@ -1,0 +1,87 @@
+/*? Variáveis e reset: */
+
+:root{
+    --pretoEsverdeado: rgb(0, 10, 0);
+    --cinzaEsverdeado: rgb(2, 30, 2);
+    --verde: green;
+    --verdeClaro: rgb(0, 180, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*? Elementos base: */
+
+body{
+    background-color: var(--pretoEsverdeado);
+    font-family: Consolas, Roboto;
+    color: var(--verdeClaro);
+}
+
+header{
+    padding: 1.5%;
+    background-color: var(--cinzaEsverdeado);
+    border-bottom: 0.5px solid;
+}
+
+a{
+    color: var(--verde);
+    font-weight: bold;
+    font-size: 20.5px;
+}
+
+/*? Barra de navegação: */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0.15%;
+}
+
+.logo a{
+    color: var(--verdeClaro);
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+u{
+    text-decoration: underline;
+    color: var(--verde);
+}
+
+.login{
+    background-color: black;
+    color: var(--verde);
+    border: 1px solid;
+    padding: 10px 15px;
+    font-size: 15.5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 55px;
+    font-weight: bold;
+    width: auto;
+}
+
+.login em{
+    vertical-align: middle;
+}
+
+.login:hover{
+    background-color: var(--verdeClaro);
+    color: black;
+    border: 1px solid var(--verdeClaro);
+}
+
+.fa-user-circle{
+    font-size: 25.5px;
+}
+
+nav a{
+    margin-right: 25px;
+}
