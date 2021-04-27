@@ -1,4 +1,4 @@
-/*? Variáveis e reset: */
+/** Variáveis e reset: */
 
 :root{
     --pretoEsverdeado: rgb(0, 10, 0);
@@ -14,7 +14,7 @@
     text-decoration: none;
 }
 
-/*? Elementos base: */
+/** Elementos base: */
 
 body{
     background-color: var(--pretoEsverdeado);
@@ -34,7 +34,7 @@ a{
     font-size: 20.5px;
 }
 
-/*? Barra de navegação: */
+/** Barra de navegação: */
 
 .navbar{
     display: flex;
@@ -48,6 +48,7 @@ a{
     color: var(--verdeClaro);
     font-size: 30px;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 u{
@@ -60,7 +61,7 @@ u{
     color: var(--verde);
     border: 1px solid;
     padding: 10px 15px;
-    font-size: 15.5px;
+    font-size: 17.5px;
     cursor: pointer;
     transition: 0.5s ease;
     border-radius: 55px;
@@ -84,4 +85,29 @@ u{
 
 nav a{
     margin-right: 25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--verdeClaro);
+    transition: ease 0.3s;
+}
+
+/**Carrosel:*/
+
+#destaques{
+    margin: 3% 1%;
+}
+
+.tituloDestaque{
+    font-weight: bold;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.imagem-carrosel{
+    height: 100%;
+    width: 100%;
 }
