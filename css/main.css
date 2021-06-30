@@ -96,7 +96,7 @@ nav a:hover{
 /**Carrosel:*/
 
 #destaques{
-    margin: 5% 1%;
+    margin: 3.5% 1%;
 }
 
 .tituloDestaque{
@@ -109,8 +109,25 @@ nav a:hover{
     transition: ease-in-out 0.5s;
 }
 
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+}
+
 .imagem-carrosel{
-    height: 98.5%;
-    width: 98.5%;
-    border-radius: 25px;
+    padding: 0.5%;
+    height: 97%;
+    width: 97%;
+    border-radius: 30px;
+    filter: brightness(50%);
+}
+
+.imagem-titulo-destaque{
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.imagem-conteudo-destaque{
+    color: whitesmoke;
+    font-size: 20.5px;
 }
